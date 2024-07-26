@@ -6,12 +6,12 @@ terraform {
     }
   }
 
-#  backend "azurerm" {
-#     resource_group_name  = "1-e4804547-playground-sandbox"
-#     storage_account_name = "sttfstatemgt01"
-#     container_name       = "tfstate"
-#     key                  = "dev.terraform.tfstate"
-#   }
+ backend "azurerm" {
+    resource_group_name  = "1-e4804547-playground-sandbox"
+    storage_account_name = "terraformsara1"
+    container_name       = "tfstatefile"
+    key                  = "dev.terraform.tfstate"
+  }
  }
 
 # Configure the Microsoft Azure Provider
